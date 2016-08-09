@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">SDKScanner</string>
+    <string name="start_scan">Start Scan</string>
+    <string name="cancel_scan">Cancel Scan</string>
+    <string name="share_results">Share Results</string>
+    <string name="result_1">Top 10 Biggest files!</string>
+    <string name="result_2">Top 5 File extensions</string>
+    <string name="result_3">Avg File Size on the SD Card</string>
+</resources>
