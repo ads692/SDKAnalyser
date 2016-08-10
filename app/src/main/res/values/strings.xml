@@ -6,4 +6,5 @@
     <string name="result_1">Top 10 Biggest files!</string>
     <string name="result_2">Top 5 File extensions</string>
     <string name="result_3">Avg File Size on the SD Card</string>
+    <string name="analyze_results">Analyze!</string>
 </resources>

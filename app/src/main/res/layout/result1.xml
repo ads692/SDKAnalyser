@@ -3,33 +3,30 @@
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-
-    <TextView
+    <ListView android:id="@+id/listView"
         android:layout_width="wrap_content"
-        android:layout_height="350dp"
-        android:text="New Text"
-        android:id="@+id/textView"
+        android:layout_height="250dp"
         android:layout_alignParentTop="true"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/cancel_scan"
-        android:id="@+id/cancelButton"
-        android:layout_below="@+id/textView"
-        android:layout_marginTop="35dp"
+        android:text="@string/analyze_results"
+        android:id="@+id/analyzeButton"
+        android:onClick="analyze"
+        android:layout_marginTop="83dp"
+        android:layout_below="@+id/listView"
         android:layout_centerHorizontal="true" />
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/share_results"
-        android:id="@+id/shareButton"
-        android:layout_marginTop="15dp"
-        android:layout_below="@+id/cancelButton"
+        android:text="@string/cancel_scan"
+        android:id="@+id/cancelButton"
+        android:layout_marginTop="50dp"
+        android:layout_below="@+id/analyzeButton"
         android:layout_centerHorizontal="true" />
+
 </RelativeLayout>
